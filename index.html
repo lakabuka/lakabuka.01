@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+<script>
+
+Калькулятор:
+	
+var x=prompt("введите 1-е число");
+var operation=prompt("выберете операцию (+ - * /)");
+var y=prompt("введите 2-е число");
+var z=0;
+
+if (operation=='+') {
+	alert(+x+ +y);
+}
+else if (operation=="-") {		
+	alert(+x-+y);
+}
+else if (operation=="*") {
+	alert(+x*+y);
+}
+else if (operation=="/") {
+	alert(+x/+y);
+}
+
+else{
+	alert ("что-то пошло не так")
+}
+
+
+
+// Конвертер валют:
+
+//  var val=prompt("введите валюту (UAH/USD/EUR)");
+//  var val_2=prompt ("введите валюту, в которую конвертируем (UAH/USD/EUR)");
+//  var sum=prompt("введите сумму");
+
+//  var course1=26.92;  // грн/долл
+//  var course2=30.2;   // грн/евро
+//  var course3=0.8783; // долл/евро
+//  var course4=1.1123; // евро/долл
+
+// var x="UAH";
+// var y="USD";
+// var z="EUR";
+
+// if ((val>=x && val_2>=y)){
+// 	alert("Вуаля: "+sum/course1+" $");
+// }	
+
+// else if ((val>=x && val_2>=z)){
+// 	alert(sum/course2+" €");
+// }
+// else if ((val>=y && val_2>=x)){
+// 	alert(sum*course1+" ₴");
+// }
+// else if ((val>=y && val_2>=z)){
+// 	alert(sum*course3+" €");
+// }
+// else if ((val>=z && val_2>=x)){
+// 	alert(sum*course2+" ₴");
+// }
+// else if ((val>=z && val_2>=y)){
+// 	alert(sum*course4+" $");
+// }
+
+// else {
+// 	alert("что-то пошло не так..")
+// }
+
+
+</script>
+
+
+
+
+</body>
+</html>
